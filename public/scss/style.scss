@@ -1,11 +1,12 @@
 body{
+    margin: 5vw;
     background-image: url(../img/bg.jpg);
     background-position: center;
 }
 
 .title{
     display: flex;
-    width: 100vw;
+    width: 90vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -24,13 +25,63 @@ h1{
 
 .templated{
     color: rgba(255, 255, 255, 0.592);
+    margin-bottom: 4vh;
 }
 
+// Section1
 
-.divSection1{
+.containerSection1{
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    flex-direction: column;
+}
 
+.imageSection1Div{
+    display: flex;
+    width: 90vw;
+    height: 45vh;
+    // height: fit-content;
 }
 
 .imageSection1{
-    
+    width: 90vw;
+    // height: fit-content;
 }
+
+.divSection1Text1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.h3Section1{
+    display: flex;
+    font-size: 20px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.pSection1{
+    flex-wrap: wrap;
+    font-size: 20px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSection1Text2{
+    display: flex;
+    background-color: rgb(169, 166, 152);
+}
+
+.paraSection1{
+    font-size:20px;
+}
+
+.paraSection1{
+    font-size:20px;
+}
+
